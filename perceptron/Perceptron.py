@@ -32,3 +32,5 @@ bias = -0.5
 # 获取决策结果
 decision = perceptron(inputs, weights, bias)
 print(f"决策结果: {'带伞' if decision == 1 else '不带伞'}") # 输出: 决策结果: 带伞
+
+
